@@ -8,9 +8,11 @@
             <mat-toolbar  class="bg-light">
             <mat-icon (click)="sidebar.toggle()"  >menu</mat-icon>
                 <div class="box">
-                     <mat-icon>search</mat-icon>
-                     <mat-icon>bookmark_border</mat-icon>
-                     <mat-icon>mail-outline</mat-icon>
+                    <mat-form-field class="example-full-width" appearance="fill">
+                    <input matInput type="search" placeholder="search your favorite"  class="searchfield">     
+                    </mat-form-field>
+                    <mat-icon>search</mat-icon>
+                     
                 </div>
                 
             </mat-toolbar>

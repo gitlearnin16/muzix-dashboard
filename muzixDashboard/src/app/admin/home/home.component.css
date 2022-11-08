@@ -15,6 +15,10 @@ mat-sidenav-content{
 }
 
 
+input[type="search"]{
+    background-color: transparent;
+    border-color:none;
+}
 
 mat-toolbar{
     

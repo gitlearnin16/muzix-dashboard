@@ -13,6 +13,9 @@ import { SidebarComponent } from './admin/sidebar/sidebar.component';
 import { SlideBarBodyComponent } from './admin/slide-bar-body/slide-bar-body.component';
 import { TrackComponent } from './admin/track/track.component';
 
+import {MatCardModule} from '@angular/material/card';
+import {MatInputModule} from '@angular/material/input';
+
 
 @NgModule({
   declarations: [
@@ -23,8 +26,8 @@ import { TrackComponent } from './admin/track/track.component';
     TrackComponent
   ],
   imports: [
-    BrowserModule,MatButtonModule,
-    AppRoutingModule,MatSidenavModule,
+    BrowserModule,MatButtonModule,MatInputModule,
+    AppRoutingModule,MatSidenavModule,MatCardModule,
     BrowserAnimationsModule,MatIconModule,MatToolbarModule
   ],
   providers: [],
