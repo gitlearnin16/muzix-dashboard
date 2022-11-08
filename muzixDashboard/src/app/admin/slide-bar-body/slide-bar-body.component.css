@@ -1,0 +1,36 @@
+.track-button{
+    height:45px;
+    width:45px;
+}
+
+.track-img{
+    height:55px;
+    width:55px;
+
+}
+
+.card-ele{
+ height: 120px;
+ width:100px;
+ margin:10px ;
+ padding:5px;
+}
+.user-welcome{
+    color: white;
+    font-size: 32px;
+}
+.side-headings{
+color:white;
+font-size: 20px;
+margin-top: 10px;
+}
+.movie-Home-img{
+    height:100px;
+    width:100px;
+}
+.title-movie{
+    font-size:16px;
+    color: antiquewhite;
+    padding:none;
+    margin: none;
+}
